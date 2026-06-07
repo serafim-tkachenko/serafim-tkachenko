@@ -12,6 +12,22 @@ I have 10+ years of software engineering experience across investment banking, t
 * Geometric deep learning and scientific ML
 * Quantitative finance systems and trading analytics
 
+## Selected projects
+
+### Topology-Aware EGNN for HOMO-LUMO Gap Prediction
+
+Research-style project on geometric deep learning for molecular property prediction.
+
+The project combines:
+
+* E(n)-Equivariant Graph Neural Networks
+* topological data analysis
+* persistent homology features
+* FiLM conditioning
+* robustness evaluation under coordinate noise
+
+Repository: `qm9-egnn-tda`
+
 ## Background
 
 * Engineering Team Lead / Technical Lead in Electronic Equities Analytics IT
@@ -26,3 +42,5 @@ Python, PyTorch, NumPy, pandas, scikit-learn, Java, C++, KDB+, SQL/Oracle, distr
 ## Interests
 
 Research Engineering · Machine Learning Engineering · LLM Interpretability · AI for Science · Geometric Deep Learning · Quantitative Systems · Scientific Computing
+
+
