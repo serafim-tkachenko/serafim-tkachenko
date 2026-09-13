@@ -1,6 +1,6 @@
 # Serafim Tkachenko
 
-**Software Engineering Lead · Independent LLM Interpretability Research**
+**Software Engineering Lead · ML Tooling · Independent LLM Interpretability Research**
 
 I lead an engineering team at BNP Paribas CIB and have 10+ years of experience building production systems and applied R&D software. Alongside that work, I study LLM behavior through activation analysis, controlled interventions and empirical evaluation.
 
@@ -17,6 +17,12 @@ I selected the research question and methodology and designed the [SAE Feature A
 Selected features show contextual associations. Exploratory reanalysis has not established additional predictive value beyond principal-component controls or selective effects beyond scalar gain. The research archive separates those findings from proposed behavioral experiments.
 
 [Research brief](https://github.com/serafim-tkachenko/model-behavior-research/blob/main/RESEARCH.md) · [Report](https://github.com/serafim-tkachenko/model-behavior-research/blob/main/reports/research_report/report.pdf)
+
+### [SAE Feature Atlas — toolkit](https://github.com/serafim-tkachenko/sae-feature-atlas)
+
+A reusable Python API and CLI for collecting and inspecting SAE activations. It provides explicit token populations, feature statistics, coactivation and decoder-geometry analysis, plus configuration fingerprints and artifact lineage. Model collection uses PyTorch; saved-artifact analysis can run on CPU.
+
+The toolkit supports the research above; study-specific experiments and conclusions live in Model Behavior Research.
 
 ### [EGNN with topology features on QM9](https://github.com/serafim-tkachenko/qm9-egnn-tda)
 
