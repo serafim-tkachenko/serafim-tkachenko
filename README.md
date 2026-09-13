@@ -8,21 +8,25 @@ My research interests are interpretability and empirical AI alignment: understan
 
 ## Selected work
 
-### [SAE Feature Atlas](https://github.com/serafim-tkachenko/sae-feature-atlas)
+### [Model Behavior Research](https://github.com/serafim-tkachenko/model-behavior-research)
 
 Does the context associated with an SAE feature help explain the effects of intervening on it?
 
-I built and ran a Gemma 3 4B study using pretrained Gemma Scope SAEs across 12,000 documents and two layers, followed by a 96-case development intervention pilot. The work includes activation collection, held-out statistical comparisons and matched intervention controls. It supports contextual associations in selected features; transferable prediction and selective mechanisms remain unresolved.
+I selected the research question and methodology and designed the [SAE Feature Atlas toolkit](https://github.com/serafim-tkachenko/sae-feature-atlas). The study uses pretrained Gemma 3 4B and Gemma Scope SAEs across 12,000 documents and two layers, followed by a 96-case development intervention pilot.
 
-[Read the research report](https://github.com/serafim-tkachenko/sae-feature-atlas/blob/main/reports/research_report/report.pdf)
+Selected features show contextual associations. Exploratory reanalysis has not established additional predictive value beyond principal-component controls or selective effects beyond scalar gain. The research archive separates those findings from proposed behavioral experiments.
+
+[Research brief](https://github.com/serafim-tkachenko/model-behavior-research/blob/main/RESEARCH.md) · [Report](https://github.com/serafim-tkachenko/model-behavior-research/blob/main/reports/research_report/report.pdf)
 
 ### [EGNN with topology features on QM9](https://github.com/serafim-tkachenko/qm9-egnn-tda)
 
-I built molecular-property training and evaluation pipelines around `egnn-pytorch`, adding persistent-homology features through FiLM conditioning.
+I built a molecular-property prediction pipeline around `egnn-pytorch`, adding persistent-homology features through FiLM conditioning.
 
-A subsequent paired evaluation and descriptor-replacement checks exposed a limitation: the tested FiLM branch was saturated and predictions barely depended on individual topology descriptors. The observed checkpoint advantage therefore does not establish a benefit from molecule-specific topology.
+The initial audit found saturated conditioning. A subsequent four-condition experiment trained twelve models across three seeds with the same ten-epoch budget. Standardized topology features performed worse than all controls on clean and matched-noise tests in every seed. The project is paused pending a stronger clean baseline; this is a result about the tested pipeline, not a general failure of topology methods.
 
-[Read the validation report](https://github.com/serafim-tkachenko/qm9-egnn-tda/blob/research/paired-validation/reports/paired_pilot_2026-09-13.md)
+[Research synthesis and results](https://github.com/serafim-tkachenko/qm9-egnn-tda/blob/master/reports/research_synthesis_2026-09-13.md)
+
+These projects use substantial LLM and coding-agent assistance for implementation, execution and reporting. My research-direction and toolkit-design contributions are recorded in the [contribution statement](https://github.com/serafim-tkachenko/model-behavior-research/blob/main/CONTRIBUTIONS.md).
 
 ## Background
 
