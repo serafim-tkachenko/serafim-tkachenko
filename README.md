@@ -1,46 +1,35 @@
 # Serafim Tkachenko
 
-Engineering Team Lead / Technical Lead transitioning deeper into Machine Learning Engineering and Research Engineering.
+**Software Engineering Lead · Independent LLM Interpretability Research**
 
-I have 10+ years of software engineering experience across investment banking, trading technology, backend platforms, applied R&D, and production-critical systems. My current focus is deep learning, LLM interpretability, representation learning, quantitative systems, and AI applications in finance and science.
+I lead an engineering team at BNP Paribas CIB and have 10+ years of experience building production systems and applied R&D software. Alongside that work, I study LLM behavior through activation analysis, controlled interventions and empirical evaluation.
 
-## Current focus
+My research interests are interpretability and empirical AI alignment: understanding what a model is doing, testing competing explanations, and finding when internal signals add value beyond simpler methods.
 
-* LLM interpretability and representation engineering
-* Sparse Autoencoders and activation-space analysis
-* Deep learning and research engineering
-* Geometric deep learning and scientific ML
-* Quantitative finance systems and trading analytics
+## Selected work
 
-## Selected projects
+### [SAE Feature Atlas](https://github.com/serafim-tkachenko/sae-feature-atlas)
 
-### Topology-Aware EGNN for HOMO-LUMO Gap Prediction
+Does the context associated with an SAE feature help explain the effects of intervening on it?
 
-Research-style project on geometric deep learning for molecular property prediction.
+I built and ran a Gemma 3 4B study using pretrained Gemma Scope SAEs across 12,000 documents and two layers, followed by a 96-case development intervention pilot. The work includes activation collection, held-out statistical comparisons and matched intervention controls. It supports contextual associations in selected features; transferable prediction and selective mechanisms remain unresolved.
 
-The project combines:
+[Read the research report](https://github.com/serafim-tkachenko/sae-feature-atlas/blob/main/reports/research_report/report.pdf)
 
-* E(n)-Equivariant Graph Neural Networks
-* topological data analysis
-* persistent homology features
-* FiLM conditioning
-* robustness evaluation under coordinate noise
+### [EGNN with topology features on QM9](https://github.com/serafim-tkachenko/qm9-egnn-tda)
 
-Repository: `qm9-egnn-tda`
+I built molecular-property training and evaluation pipelines around `egnn-pytorch`, adding persistent-homology features through FiLM conditioning.
+
+A subsequent paired evaluation and descriptor-replacement checks exposed a limitation: the tested FiLM branch was saturated and predictions barely depended on individual topology descriptors. The observed checkpoint advantage therefore does not establish a benefit from molecule-specific topology.
+
+[Read the validation report](https://github.com/serafim-tkachenko/qm9-egnn-tda/blob/research/paired-validation/reports/paired_pilot_2026-09-13.md)
 
 ## Background
 
-* Engineering Team Lead / Technical Lead in Electronic Equities Analytics IT
-* Production systems for trading analytics, pre-trade risk, trading data capture, permissioning, P&L and execution analytics
-* Earlier experience in computer vision and machine learning for industrial video-stream analysis
-* Deep learning coursework with projects in geometric deep learning and molecular property prediction
+- Engineering leadership and hands-on development in trading analytics, pre-trade risk, data pipelines and distributed systems.
+- Two semesters of MIPT Deep Learning School, both completed with honors and maximum available points; second-semester final project: 20/20.
+- MSc in Software Engineering, with honors. Earlier industrial computer-vision work led to a co-authored conference paper in 2018.
 
-## Technical stack
+Research tools: Python, PyTorch, NumPy, pandas, scikit-learn, Transformers and SAE-Lens. Engineering: Java, C++, C#, KDB+, SQL and distributed systems.
 
-Python, PyTorch, NumPy, pandas, scikit-learn, Java, C++, KDB+, SQL/Oracle, distributed systems, backend engineering, ML experimentation, deep learning, graph neural networks, LLM interpretability.
-
-## Interests
-
-Research Engineering · Machine Learning Engineering · LLM Interpretability · AI for Science · Geometric Deep Learning · Quantitative Systems · Scientific Computing
-
-
+[LinkedIn](https://www.linkedin.com/in/serafim-tkachenko/) · [Email](mailto:serafim.tkachenko@gmail.com) · Lisbon, Portugal
