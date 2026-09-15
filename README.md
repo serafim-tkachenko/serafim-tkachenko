@@ -8,6 +8,8 @@ My work connects software engineering with experimental research on model behavi
 
 My research interests are model representations, interpretability and empirical alignment. The central question is when internal model signals help predict behavior or intervention effects beyond simpler explanations.
 
+My broader research interests are how learned representations support memory, prediction and action, particularly in embodied agents. I’m exploring world models and robot learning as a future research direction.
+
 ## Selected work
 
 ### [Model Behavior Research](https://github.com/serafim-tkachenko/model-behavior-research)
