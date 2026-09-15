@@ -1,10 +1,12 @@
 # Serafim Tkachenko
 
-**Software Engineering Lead · ML Tooling · Independent LLM Interpretability Research**
+**Software Engineering Lead · ML Research Tooling & Evaluation · Model Behavior & Interpretability**
 
 I lead an engineering team at BNP Paribas CIB and have 10+ years of experience building production systems and applied R&D software. Alongside that work, I study LLM behavior through activation analysis, controlled interventions and empirical evaluation.
 
-My research interests are interpretability and empirical AI alignment: understanding what a model is doing, testing competing explanations, and finding when internal signals add value beyond simpler methods.
+I am seeking **Research Engineer** roles combining hands-on software engineering, experimental tooling and model evaluation.
+
+My research interests are model representations, interpretability and empirical alignment. The central question is when internal model signals help predict behavior or intervention effects beyond simpler explanations.
 
 ## Selected work
 
@@ -12,9 +14,9 @@ My research interests are interpretability and empirical AI alignment: understan
 
 Does the context associated with an SAE feature help explain the effects of intervening on it?
 
-I selected the research question and methodology and designed the [SAE Feature Atlas toolkit](https://github.com/serafim-tkachenko/sae-feature-atlas). The study uses pretrained Gemma 3 4B and Gemma Scope SAEs across 12,000 documents and two layers, followed by a 96-case development intervention pilot.
+I selected the research question and methodology and designed the [SAE Feature Atlas toolkit](https://github.com/serafim-tkachenko/sae-feature-atlas). The study uses pretrained Gemma 3 4B and Gemma Scope SAEs across 12,000 documents and two layers, followed by a development intervention pilot with 96 feature-prompt cases in 95 duplicate groups.
 
-Selected features show contextual associations. Exploratory reanalysis has not established additional predictive value beyond principal-component controls or selective effects beyond scalar gain. The research archive separates those findings from proposed behavioral experiments.
+This is an exploratory study with a negative development result: selected features show contextual associations, but the intervention analyses did not establish additional predictive value beyond principal-component controls or selective effects beyond scalar gain. The result supports narrowing the next experiment around a meaningful behavioral endpoint and strong simple baselines. Proposed experiments are separate from completed evidence.
 
 [Research brief](https://github.com/serafim-tkachenko/model-behavior-research/blob/main/RESEARCH.md) · [Report](https://github.com/serafim-tkachenko/model-behavior-research/blob/main/reports/research_report/report.pdf)
 
