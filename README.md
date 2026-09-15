@@ -4,7 +4,7 @@
 
 I lead an engineering team at BNP Paribas CIB and have 10+ years of experience building production systems and applied R&D software. Alongside that work, I study LLM behavior through activation analysis, controlled interventions and empirical evaluation.
 
-I am seeking **Research Engineer** roles combining hands-on software engineering, experimental tooling and model evaluation.
+My work connects software engineering with experimental research on model behavior, combining research tooling, controlled experiments and evaluation.
 
 My research interests are model representations, interpretability and empirical alignment. The central question is when internal model signals help predict behavior or intervention effects beyond simpler explanations.
 
