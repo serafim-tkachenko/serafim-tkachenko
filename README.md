@@ -8,7 +8,7 @@ I'm interested in Research Engineer and Research Scientist opportunities, as wel
 
 ## Selected work
 
-**[SAE context and intervention prediction](https://github.com/serafim-tkachenko/model-behavior-research).** Tested whether activation context predicts the effect of editing an SAE feature in Gemma 3 4B. The observational study covered 12,000 documents; the intervention pilot tested three features. Contextual differences were present, but the fitted predictors did not beat a training-mean baseline on pooled check data. [Study and results](https://github.com/serafim-tkachenko/model-behavior-research/blob/main/reports/sae_context_study/report.md).
+**[SAE context and intervention prediction](https://github.com/serafim-tkachenko/model-behavior-research).** Tested whether activation context predicts the effect of editing an SAE feature in Gemma 3. The observational study covered 12,000 documents, the intervention pilot tested three features. Contextual differences were present, but the fitted predictors did not beat a training-mean baseline on pooled check data. [Study and results](https://github.com/serafim-tkachenko/model-behavior-research/blob/main/reports/sae_context_study/report.md).
 
 **[SAE Feature Atlas](https://github.com/serafim-tkachenko/sae-feature-atlas).** A Python library and CLI for collecting SAE activations, inspecting token contexts, and comparing feature statistics, coactivation and decoder geometry. Built to support the study above, with reusable collection and analysis components.
 
@@ -16,7 +16,9 @@ I'm interested in Research Engineer and Research Scientist opportunities, as wel
 
 ## Background and tools
 
-My professional work includes trading analytics, pre-trade risk, data pipelines and distributed systems. Earlier industrial computer-vision work led to a co-authored conference paper in 2018. I hold an MSc in Software Engineering with honors and completed two semesters of MIPT Deep Learning School.
+My professional work includes trading analytics, pre-trade risk, data pipelines and distributed systems. 
+Earlier industrial computer-vision work led to a co-authored conference paper in 2018. 
+I hold an MSc in Software Engineering with honors and I am a member of MIPT Deep Learning School.
 
 For ML experiments I use Python, PyTorch, NumPy, pandas, scikit-learn, Transformers and SAE-Lens. My engineering background includes Java, C++, C#, KDB+ and SQL.
 
